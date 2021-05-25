@@ -1,9 +1,9 @@
-﻿using System.Windows;
-using System.Windows.Controls;
-
-namespace WPFGUIProjectFMI
+﻿namespace WPFGUIProjectFMI
 {
     public class IsBusyProperty : BaseAttachedProperty<IsBusyProperty, bool>
-    {        
+    {
+    }
+    public class IsCheckedProperty : BaseAttachedProperty<IsCheckedProperty, bool>
+    {
     }
 }

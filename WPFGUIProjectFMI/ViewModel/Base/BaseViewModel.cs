@@ -6,19 +6,14 @@ using System.Threading.Tasks;
 
 namespace WPFGUIProjectFMI
 {
-    
     [AddINotifyPropertyChangedInterface]
     public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged = (sender, e) => { };
-
-        
         public void OnPropertyChanged(string name)
         {
             PropertyChanged(this, new PropertyChangedEventArgs(name));
-        }
-
-        
+        }        
         protected async Task RunCommand(Expression<Func<bool>> updatingFlag, Func<Task> action)
         {
             // Check if the flag property is true (meaning the function is already running)
@@ -39,6 +34,5 @@ namespace WPFGUIProjectFMI
                 updatingFlag.SetPropertyValue(false);
             }
         }
-
     }
 }

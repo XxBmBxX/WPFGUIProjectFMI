@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="WPFGUIProjectFMI.ProfileUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFGUIProjectFMI"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="285">
+
+    <Border Width="{Binding ProfileSideMenuWidth, UpdateSourceTrigger=PropertyChanged}" Margin="15">
+        <Border.CacheMode>
+            <BitmapCache EnableClearType="True"/>
+        </Border.CacheMode>
+        <!-- Main window outline -->
+        <Grid>
+            <Border x:Name="Container"
+                    Background="{StaticResource ForegroundLightBrush}"
+                    CornerRadius="{Binding CornerRadius, FallbackValue=10}" />
+            <!-- The main window content -->
+            <Grid>
+                <Grid.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=Container}" />
+                </Grid.OpacityMask>
+                <Grid.RowDefinitions>
+                    <!-- Title Bar -->
+                    <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}" />
+                    <!-- Underline -->
+                    <RowDefinition Height="Auto" />
+                    <!-- Window Content -->
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <!-- Title Bar -->
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Button Margin="5 0 0 0"
+                            Style="{StaticResource SaveButton}"
+                            FontSize="{StaticResource FontSizeLarge}"
+                            local:IsBusyProperty.Value="{Binding SavingIsRunningPublic}"
+                            Command="{Binding SaveGame}"
+                            HorizontalAlignment="left" />
+                    <!-- Title -->
+                        <Viewbox Grid.ColumnSpan="2">
+                            <TextBlock HorizontalAlignment="Center" Style="{StaticResource ProfileInfoText}" Text="Профил" />
+                        </Viewbox>
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button HorizontalAlignment="Right" 
+                            Command="{Binding OpenScore}" 
+                            Style="{StaticResource SettingsButton}"
+                            Content="{StaticResource Trophy}"/>
+                        <Button HorizontalAlignment="Right" 
+                            Command="{Binding OpenSettings}" 
+                            Style="{StaticResource SettingsButton}"/>
+                    </StackPanel>
+                </Grid>
+                <!-- Underline -->
+                <Border Grid.Row="1" Height="1" BorderThickness="0 0.5 0 0">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1, 0">
+                            <GradientStop Color="{StaticResource ForegroundLight}" Offset="0.0" />
+                            <GradientStop Color="{StaticResource ForegroundMain}" Offset="0.5" />
+                            <GradientStop Color="{StaticResource ForegroundLight}" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                </Border>
+
+                <!-- MainContent -->
+                <Border Grid.Row="2">
+                    <Grid Background="{StaticResource ForegroundLightBrush}">
+                        <Grid>
+                            <!--User profile -->
+                            <Grid Margin="10">
+                                <StackPanel HorizontalAlignment="Center"                                           >
+                                    <Border MaxWidth="350" >
+                                        <Grid Margin="15">
+                                            <Border x:Name="Border"
+                                                    Background="{StaticResource ForegroundLightBrush}"
+                                                    CornerRadius="{Binding CornerRadius, FallbackValue=15}"/>
+                                            <Image Source="{Binding ImageSourceString, Converter={local:StringToImageSourceConverter}, UpdateSourceTrigger=PropertyChanged}">
+                                                <Image.Effect>
+                                                    <DropShadowEffect BlurRadius="10" Opacity="0.5" ShadowDepth="1"/>
+                                                </Image.Effect>
+                                                <Image.OpacityMask>
+                                                    <VisualBrush Visual="{Binding ElementName=Border}" />
+                                                </Image.OpacityMask>
+                                            </Image>
+                                        </Grid>
+                                    </Border>
+                                    <!-- User credentials -->
+                                    <TextBlock Margin="0 10 0 0" 
+                                               Text="{Binding Username, FallbackValue=username, UpdateSourceTrigger=PropertyChanged}" 
+                                               Style="{StaticResource ProfileInfoText}" 
+                                               FontSize="{StaticResource FontSizeLarge}"/>
+                                    
+                                    <TextBlock Margin="0 10 0 0" 
+                                               Text="{Binding Email, FallbackValue=email, UpdateSourceTrigger=PropertyChanged}" 
+                                               Style="{StaticResource ProfileInfoText}" 
+                                               FontSize="{StaticResource FontSizeRegular}"/>
+                                    
+                                    <StackPanel Margin="0 10 0 0" Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <TextBlock Text="{Binding Money, FallbackValue=money, Converter={local:FloatToStringConverter}, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ProfileInfoText}" FontSize="{StaticResource FontSizeRegular}"/>
+                                        <TextBlock Text=" лв" Style="{StaticResource ProfileInfoText}" FontSize="{StaticResource FontSizeRegular}" Foreground="Green"/>
+                                    </StackPanel>
+                                    <Button Command="{Binding StoragePage}"
+                                                    Content="Склад" 
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"/>
+                                    <Button Command="{Binding LogOut}"
+                                            local:IsBusyProperty.Value="{Binding LoginOut}"
+                                            Content="Излез" 
+                                            HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security;
 using System.Runtime.InteropServices;
+using System.Security;
 
 namespace WPFGUIProjectFMI
 {
     public static class SecureStringHelpers
     {
+        /// <summary>
+        /// The method that unsecures the secure string
+        /// </summary>
+        /// <param name="secureString"></param>
+        /// <returns></returns>
         public static string Unsecure(this SecureString secureString)
         {
             if (secureString == null)

@@ -9,6 +9,22 @@
         <Setter Property="Margin" Value="0 6" />
     </Style>
 
+    <Style TargetType="{x:Type TextBlock}" x:Key="StockText" BasedOn="{StaticResource BaseTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource ForegroundMainBrush}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="15" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBlock}" x:Key="ProfileInfoText" BasedOn="{StaticResource BaseTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource ForegroundMainBrush}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="0 6" />
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeRegular}" />
+    </Style>
+
     <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource BaseStyle}">
 
         <Setter Property="FontSize" Value="{StaticResource FontSizeLarge}" />
@@ -16,7 +32,7 @@
         <Setter Property="Padding" Value="10" />
         <Setter Property="Margin" Value="0 5 0 5" />
         <Setter Property="BorderBrush" Value="{StaticResource WordBlueBrush}" />
-        <Setter Property="BorderThickness" Value="1 1 1 2" />
+        <Setter Property="BorderThickness" Value="0 3 0 3" />
 
         <Setter Property="Template">
             <Setter.Value>
@@ -24,7 +40,8 @@
 
                     <Grid>
 
-                        <Border x:Name="border" 
+                        <Border CornerRadius="10"
+                                x:Name="border" 
                                 BorderBrush="{TemplateBinding BorderBrush}" 
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 Background="{TemplateBinding Background}"
@@ -51,11 +68,8 @@
                                     </Style.Triggers>
                                 </Style>
                             </TextBlock.Style>
-
                         </TextBlock>
-
                     </Grid>
-
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsEnabled" Value="False">
                             <Setter Property="Opacity" TargetName="border" Value="0.56"/>
@@ -73,6 +87,71 @@
 
     </Style>
 
+    <Style TargetType="{x:Type TextBox}" x:Key="ShopTextBox" BasedOn="{StaticResource BaseStyle}">
+
+        <Setter Property="Padding" Value="5" />
+        <Setter Property="Margin" Value="0 3 0 3" />
+        <Setter Property="BorderBrush" Value="{StaticResource WordOrangeBrush}" />
+        <Setter Property="BorderThickness" Value="0 1 1 2" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundMainBrush}" />
+        <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBoxBase}">
+
+                    <Grid>
+
+                        <Border CornerRadius="5"
+                                x:Name="border" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+
+                        <TextBlock IsHitTestVisible="False"
+                                   Text="{TemplateBinding Tag}"
+                                   x:Name="placeholder"
+                                   FontFamily="{TemplateBinding FontFamily}"
+                                   Padding="{TemplateBinding Padding}"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+                                   Foreground="{TemplateBinding Foreground}"
+                                   >
+                            <TextBlock.Style>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource TemplatedParent}}" Value="">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" TargetName="border" Value="#ffb930"/>
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="BorderBrush" TargetName="border" Value="#ffc95e"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
     <Style TargetType="{x:Type PasswordBox}" BasedOn="{StaticResource BaseStyle}">
 
         <Setter Property="FontSize" Value="{StaticResource FontSizeLarge}" />
@@ -80,7 +159,7 @@
         <Setter Property="Padding" Value="10" />
         <Setter Property="Margin" Value="0 5 0 5" />
         <Setter Property="BorderBrush" Value="{StaticResource WordBlueBrush}" />
-        <Setter Property="BorderThickness" Value="1 1 1 2" />
+        <Setter Property="BorderThickness" Value="0 3 0 3" />
 
         <Setter Property="local:MonitorPasswordProperty.Value" Value="True" />
 
@@ -90,7 +169,8 @@
 
                     <Grid>
 
-                        <Border x:Name="border" 
+                        <Border CornerRadius="10"
+                                x:Name="border" 
                                 BorderBrush="{TemplateBinding BorderBrush}" 
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 Background="{TemplateBinding Background}"
@@ -103,7 +183,7 @@
                                    x:Name="placeholder"
                                    FontFamily="{StaticResource LatoThin}"
                                    Padding="{TemplateBinding Padding}"
-                                   Visibility="{TemplateBinding local:HasTextProperty.Value, Converter={local:BooleanToVisiblityConverter}}"
+                                   Visibility="{TemplateBinding local:HasTextProperty.Value, Converter={local:BooleanToVisibilityConverter}}"
                                    VerticalAlignment="Center"
                                    HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
                                    Foreground="{StaticResource ForegroundVeryDarkBrush}"
@@ -128,9 +208,10 @@
         </Setter>
 
     </Style>
+    
     <Style TargetType="{x:Type TextBlock}" x:Key="SpinningText" BasedOn="{StaticResource BaseTextBlockStyle}">
-        <Setter Property="FontFamily" Value="{StaticResource FontAwesome}" />
-        <Setter Property="Text" Value="&#xf110;" />
+        <Setter Property="FontFamily" Value="{StaticResource FontAwesomeSolid}" />
+        <Setter Property="Text" Value="&#xf2f1;" />
         <Setter Property="RenderTransformOrigin" Value="0.5, 0.5" />
         <Setter Property="RenderTransform">
             <Setter.Value>
@@ -144,7 +225,7 @@
                     From="0"
                     To="360"
                     Duration="0:0:2"
-                    RepeatBehavior="Forever"/>
+                    RepeatBehavior="Forever" />
             </Storyboard>
         </Style.Resources>
         <Style.Triggers>

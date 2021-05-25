@@ -4,11 +4,16 @@ using System.Globalization;
 
 namespace WPFGUIProjectFMI
 {
-    /// <summary>
-    /// Converts the <see cref="ApplicationPage"/> to an actual view/page
-    /// </summary>
     public class ApplicationPageValueConverter : BaseValueConverter<ApplicationPageValueConverter>
     {
+        /// <summary>
+        /// Converts aplication page enum into actual page
+        /// </summary>
+        /// <param name="value"></param>
+        /// <param name="targetType"></param>
+        /// <param name="parameter"></param>
+        /// <param name="culture"></param>
+        /// <returns></returns>
         public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             // Find the appropriate page
@@ -18,8 +23,12 @@ namespace WPFGUIProjectFMI
                     return new LoginPage();
                 case ApplicationPage.Register:
                     return new RegisterPage();
-                case ApplicationPage.ProfilePage:
-                    return new ProfilePage();
+                case ApplicationPage.StoragePage:
+                    return new StoragePage();
+                case ApplicationPage.BuyPage:
+                    return new BuyPage();
+                case ApplicationPage.SellPage:
+                    return new SellPage();
                 default:
                     Debugger.Break();
                     return null;

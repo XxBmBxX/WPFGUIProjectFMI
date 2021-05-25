@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="WPFGUIProjectFMI.SettingsTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFGUIProjectFMI"
+             mc:Ignorable="d"
+             MaxWidth="350"
+             MinWidth="200">
+
+    <Border>
+
+        <Grid Background="{StaticResource ForegroundLightBrush}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <!-- Username change -->
+            <Grid Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Margin=" 0 30 0 5" 
+                           Text="Смяна на име" 
+                           Style="{StaticResource ProfileInfoText}"/>
+
+                <TextBox x:Name="Username"
+                         Tag="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                         Text="{Binding NewUsername, UpdateSourceTrigger=PropertyChanged}"
+                         Grid.Column="0"
+                         Grid.Row="1"
+                         Padding="5"
+                         Margin="5 5 10 5"/>
+
+                    <!-- Save Button -->
+                <Button Style="{StaticResource ChangeButton}"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Content="{StaticResource TickIcon}"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        IsDefault="True"
+                        Cursor="Hand"
+                        Command="{Binding ChangeName}"
+                        local:IsBusyProperty.Value="{Binding ChangingNameIsRunning}"
+                        Background="{StaticResource WordGreenBrush}"
+                        Padding="8 5"
+                        Margin="0 0 5 0"
+                        VerticalAlignment="Center"
+                        FontSize="{StaticResource FontSizeSmall}"/>
+
+            </Grid>
+
+            <!-- Email change -->
+            <Grid Grid.Row="1">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Margin=" 0 30 0 5" 
+                           Text="Смяна на И-мейл" 
+                           Style="{StaticResource ProfileInfoText}"/>
+
+                <TextBox x:Name="Email" 
+                         Tag="{Binding Email,UpdateSourceTrigger=PropertyChanged}"
+                         Text="{Binding NewEmail, UpdateSourceTrigger=PropertyChanged}"
+                         Grid.Column="0"
+                         Grid.Row="1"
+                         Padding="5"
+                         Margin="5 5 10 5"/>
+
+                <!-- Save Button -->
+                <Button Style="{StaticResource ChangeButton}"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Content="{StaticResource TickIcon}"
+                        FontFamily="{StaticResource FontAwesomeSolid}"                     
+                        IsDefault="True"
+                        Cursor="Hand"
+                        Command="{Binding ChangeEmail}"
+                        local:IsBusyProperty.Value="{Binding ChangingEmailIsRunning}"
+                        Background="{StaticResource WordGreenBrush}"
+                        Padding="8 5"
+                        Margin="0 0 5 0"
+                        VerticalAlignment="Center"
+                        FontSize="{StaticResource FontSizeSmall}"/>
+
+            </Grid>
+
+        </Grid>
+    </Border>
+</UserControl>

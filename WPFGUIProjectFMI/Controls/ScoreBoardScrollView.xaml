@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WPFGUIProjectFMI.ScoreBoardScrollView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFGUIProjectFMI"
+             mc:Ignorable="d" 
+             MinHeight="480"
+             MaxHeight="480"
+             Width="330">
+    
+    <Border
+            Margin="10"
+            CornerRadius="15" 
+            Background="{StaticResource ForegroundLightBrush}">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" Opacity="0.5" ShadowDepth="0"/>
+        </Border.Effect>
+        <Grid Background="Transparent">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ItemsControl ItemsSource="{Binding Items, UpdateSourceTrigger=PropertyChanged}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <local:PlayerScore  />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</UserControl>

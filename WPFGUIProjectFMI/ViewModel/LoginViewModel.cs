@@ -1,9 +1,4 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.InteropServices;
-using System.Security;
+﻿using System.Security;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -12,63 +7,60 @@ namespace WPFGUIProjectFMI
 {
     public class LoginViewModel : BaseViewModel
     {
+
+        /// <summary>
+        /// Login view model public properties
+        /// </summary>
         #region Public Members
 
         public string Username { get; set; }
-        public SecureString Password { get; set; }
-
         public bool LoginIsRunning { get; set; }
         public ICommand LoginCommand { get; set; }
         public ICommand RegisterCommand { get; set; }
+
         #endregion
 
+        /// <summary>
+        /// Login view Tasks and commands
+        /// </summary>
         #region Tasks and commands
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public LoginViewModel()
         {
             LoginCommand = new RelayParameterizedCommand(async (parameter) => await LoginAsync(parameter));
-            RegisterCommand = new RelayCommand(async () => await RegisterAsync());
-        }        
+            RegisterCommand = new RelayCommand(RegisterAsync);
+        }
+
+        /// <summary>
+        /// Logs in the user
+        /// </summary>
+        /// <param name="parameter"></param>
+        /// <returns></returns>
         public async Task LoginAsync(object parameter)
         {
             await RunCommand(() => LoginIsRunning, async () =>
             {
                 string user = Username;
-                string pass = (parameter as IHavePassword).SecurePassword.Unsecure();               
-                if (await Task.Run(() => Login(user, pass)))
+                string pass = (parameter as IHavePassword).SecurePassword.Unsecure();
+                if (await Task.Run(() => LoginRegisterCalls.LoginAsync(user, pass)))
                 {
-                    ((WindowViewModel)((MainWindow)Application.Current.MainWindow).DataContext).CurrentPage = ApplicationPage.ProfilePage;
+                    CombinedViewModel.SetPrices();
+                    CombinedViewModel.Timer();
+                    WindowViewModel.CurrentPage = ApplicationPage.StoragePage;
+                    CombinedViewModel.ProfileVisibility = true;                    
                 }
             });
         }
-        public Task<bool> Login(string username, string password)
-        {
-            try
-            {
-                MySqlConnection loginConnection = new MySqlConnection("datasource=freedb.tech;port=3306;username=freedbtech_XxBmBxX;password=19072001qwerty123;database=freedbtech_guiproject");
-                loginConnection.Open();
-                MySqlCommand checkCredentials = new MySqlCommand("SELECT COUNT(*) FROM Accounts WHERE username = '" + username + "'AND password ='" +password+ "' ", loginConnection);
-                int resultCheck = Convert.ToInt32(checkCredentials.ExecuteScalar());
-                if (resultCheck > 0)
-                {
-                    return Task.FromResult(true);
-                }
-                else
-                {
-                    MessageBox.Show("Invalid user credentials");                   
-                }
-                loginConnection.Close();
-                return Task.FromResult(false);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                throw;
-            }
-        }
-        public async Task RegisterAsync()
-        {
-            ((WindowViewModel)((MainWindow)Application.Current.MainWindow).DataContext).CurrentPage = ApplicationPage.Register;
-            await Task.Delay(1);
+
+        /// <summary>
+        /// Sends the user to the register page
+        /// </summary>
+        public void RegisterAsync()
+        {           
+            WindowViewModel.CurrentPage = ApplicationPage.Register;
         }
         #endregion
     }

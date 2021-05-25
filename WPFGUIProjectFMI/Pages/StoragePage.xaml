@@ -1,0 +1,196 @@
+﻿ <local:BasePage x:TypeArguments="local:CombinedViewModel" x:Class="WPFGUIProjectFMI.StoragePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFGUIProjectFMI"
+      mc:Ignorable="d" 
+      Background="Transparent"
+      x:Name="GamePages"
+      d:DesignHeight="600" d:DesignWidth="850">
+
+    <Border Margin="15">
+        <Border.CacheMode>
+            <BitmapCache EnableClearType="True"/>
+        </Border.CacheMode>
+        <!-- Main window outline -->
+        <Grid>
+            <Border x:Name="Container"
+                    Background="{StaticResource ForegroundLightBrush}"
+                    CornerRadius="{Binding CornerRadius, FallbackValue=10}" />
+            <!-- The main window content -->
+            <Grid>
+                <Grid.OpacityMask>
+                    <VisualBrush Visual="{Binding ElementName=Container}" />
+                </Grid.OpacityMask>
+                <Grid.RowDefinitions>
+                    <!-- Title Bar -->
+                    <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}" />
+                    <!-- Underline -->
+                    <RowDefinition Height="Auto" />
+                    <!-- Window Content -->
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <!-- Title Bar -->
+                
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!-- Title -->
+                    
+                    <Viewbox Grid.Row="0" Grid.ColumnSpan="2">
+                        <TextBlock Style="{StaticResource ProfileInfoText}" Text="Склад" />
+                    </Viewbox>
+                </Grid>
+                
+                <!-- Underline -->
+                <Border Grid.Row="1" Height="1" BorderThickness="0 0.5 0 0">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1, 0">
+                            <GradientStop Color="{StaticResource ForegroundLight}" Offset="0.0" />
+                            <GradientStop Color="{StaticResource ForegroundMain}" Offset="0.5" />
+                            <GradientStop Color="{StaticResource ForegroundLight}" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                </Border>
+                
+                <!-- MainContent -->
+                <Border Grid.Row="2">
+                    <Grid Background="{StaticResource ForegroundLightBrush}">
+                        <Grid>
+                            <!-- User current stock -->
+                            <Border CornerRadius="{Binding CornerRadius}" 
+                                    Margin="10" Grid.Column="1" 
+                                    Background="{StaticResource ForegroundLightBrush}"
+                                    BorderBrush="{StaticResource ForegroundMainBrush}"
+                                    BorderThickness="0 3 0 3">
+                                <Grid>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <!-- Title Bar -->
+                                            <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}" />
+                                            <!-- Window Content -->
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0" Margin="10 0 10 0 ">
+                                            <!-- Title -->
+                                            <Viewbox HorizontalAlignment="Left">
+                                                <TextBlock Style="{StaticResource ProfileInfoText}" Text="Текуща стока в склада" />
+                                            </Viewbox>
+                                            <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                                                <TextBlock Style="{StaticResource ProfileInfoText}" Text="Свободно място: " />
+                                                <TextBlock x:Name="space" Style="{StaticResource ProfileInfoText}" Text="{Binding FreeSpace}" Foreground="{Binding FreeSpace, Converter={local:ValueToColorSpace}}" />
+                                                <TextBlock Style="{StaticResource ProfileInfoText}" Text=" кг" />
+                                            </StackPanel>
+                                        </Grid>
+                                        <Grid Grid.Row="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*" />
+                                                <RowDefinition Height="*" />
+                                                <RowDefinition Height="*" />
+                                                <RowDefinition Height="*" />
+                                            </Grid.RowDefinitions>
+
+                                            <!--#region Stock Grid -->
+
+                                            <!--#region First Column -->
+                                            <DockPanel  Grid.Column="0" Grid.Row="0">
+                                                <Image Source="/Images/Stock/tomatoes.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Tomatoes, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="0" Grid.Row="1">
+                                                <Image Source="/Images/Stock/potatoes.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Potatoes, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="0" Grid.Row="2">
+                                                <Image Source="/Images/Stock/bananas.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Bananas, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="0" Grid.Row="3">
+                                                <Image Source="/Images/Stock/oranges.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Oranges, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <!--#endregion-->
+
+                                            <!--#region Second Column -->
+                                            <DockPanel  Grid.Column="1" Grid.Row="0">
+                                                <Image Source="/Images/Stock/apples.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Aples, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="1" Grid.Row="1">
+                                                <Image Source="/Images/Stock/strawberries.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Strawberries, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="1" Grid.Row="2">
+                                                <Image Source="/Images/Stock/beans.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Beans, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="1" Grid.Row="3">
+                                                <Image Source="/Images/Stock/kiwi.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                                       Text="{Binding Kiwi, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <!--#endregion-->
+
+                                            <!--#region Third Column -->
+                                            <DockPanel  Grid.Column="2" Grid.Row="0">
+                                                <Image Source="/Images/Stock/pears.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Pears, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="2" Grid.Row="1">
+                                                <Image Source="/Images/Stock/cucumbers.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Cucumbers, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="2" Grid.Row="2">
+                                                <Image Source="/Images/Stock/watermelons.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Watermelons, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <DockPanel  Grid.Column="2" Grid.Row="3">
+                                                <Image Source="/Images/Stock/cantaloupes.png"/>
+                                                <TextBlock Style="{StaticResource StockText}"
+                                                               Text="{Binding Cantaloupes, Converter={local:KilogramTextApendStorage}}" />
+                                            </DockPanel>
+                                            <!--#endregion-->
+
+                                            <!--#endregion-->
+                                            
+                                        </Grid>
+                                        <Grid Grid.Row="2">
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                <Button Command="{Binding SellPage}"
+                                                            Content="Продай стока" 
+                                                            HorizontalAlignment="Center"/>
+                                                <Button Command="{Binding BuyPage}"
+                                                            Content="Купи стока" 
+                                                            HorizontalAlignment="Center"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
+</local:BasePage>

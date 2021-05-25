@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="WPFGUIProjectFMI.PlayerScore"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFGUIProjectFMI"
+             mc:Ignorable="d" 
+             MinHeight="100"
+             MinWidth="300">
+    
+    <!-- Content -->
+    <Border
+            Margin="5 5 15 5"
+            CornerRadius="10"
+            BorderThickness="2"
+            BorderBrush="{StaticResource WordRedBrush}"
+            x:Name="background" 
+            Background="{StaticResource ForegroundLightBrush}">
+        <Grid x:Name="container" Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <!-- Profile picture -->
+                <ColumnDefinition Width="Auto" />
+                <!-- Main content -->
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <!-- Profile picture padding -->
+            <Border Grid.Column="0" Padding="8">
+                <!-- Profile picture background -->
+                <Border Background="{StaticResource WordOrangeBrush}"
+                        Height="30"
+                        Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}"
+                        CornerRadius="{Binding ActualHeight, RelativeSource={RelativeSource Self}}">
+                </Border>
+            </Border>
+
+            <!-- Main content -->
+            <Border Grid.Column="1" Padding="0 0 8 0">
+                <StackPanel VerticalAlignment="Center">
+                    <!-- Name-->
+                    <TextBlock x:Name="name"
+                               Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                               Foreground="{StaticResource WordBlueBrush}"
+                               TextTrimming="CharacterEllipsis"
+                               FontFamily="{StaticResource LatoBold}"
+                               FontSize="{StaticResource FontSizeLarge}"
+                               />
+                    <!-- Message -->
+                    <TextBlock x:Name="money"
+                               Text="{Binding Money, UpdateSourceTrigger=PropertyChanged}"
+                               Foreground="{StaticResource ForegroundDarkBrush}"
+                               TextTrimming="CharacterEllipsis"
+                               FontFamily="{StaticResource LatoBold}"
+                               FontSize="{StaticResource FontSizeRegular}"
+                               />
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>

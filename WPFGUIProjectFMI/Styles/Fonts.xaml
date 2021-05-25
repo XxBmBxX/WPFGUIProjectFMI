@@ -6,7 +6,7 @@
     <FontFamily x:Key="LatoThin">pack://appliction;,,,/Fonts/#Lato Thin</FontFamily>
     <FontFamily x:Key="LatoRegular">pack://appliction;,,,/Fonts/#Lato Regular</FontFamily>
     <FontFamily x:Key="LatoBold">pack://appliction;,,,/Fonts/#Lato Bold</FontFamily>
-    <FontFamily x:Key="FontAwesome">pack://appliction;,,,/Fonts/#FontAwesome</FontFamily>
+    <FontFamily x:Key="FontAwesomeSolid">pack://appliction;,,,/Fonts/#Font Awesome 5 Free Solid</FontFamily>
 
     <Style TargetType="{x:Type Control}" x:Key="BaseStyle">
         <Setter Property="FontFamily" Value="{StaticResource LatoThin}" />
@@ -23,7 +23,17 @@
     <Style TargetType="{x:Type ListView}" BasedOn="{StaticResource BaseStyle}" />
 
     <system:Double x:Key="FontSizeRegular">20</system:Double>
+    <system:Double x:Key="FontSizeReallyLarge">60</system:Double>
     <system:Double x:Key="FontSizeSmall">14</system:Double>
     <system:Double x:Key="FontSizeLarge">30</system:Double>
+    <system:String x:Key="SettingsFontIcon">&#xf1de;</system:String>
+    <system:String x:Key="SettingsFontClose">&#xf410;</system:String>
+    <system:String x:Key="SaveIcon">&#xf382;</system:String>
+    <system:String x:Key="MinimixeIcon">&#xf2d1;</system:String>
+    <system:String x:Key="MaximizeIcon">&#xf2d0;</system:String>
+    <system:String x:Key="CheckedIcon">&#xf14a;</system:String>
+    <system:String x:Key="TickIcon">&#xf00c;</system:String>
+    <system:String x:Key="XIcon">&#xf00d;</system:String>
+    <system:String x:Key="Trophy">&#xf091;</system:String>
 
 </ResourceDictionary>

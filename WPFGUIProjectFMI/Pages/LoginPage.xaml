@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPFGUIProjectFMI"
       mc:Ignorable="d" 
-      x:Name="Page"
+      x:Name="LoginRegister"
       Title="LoginPage">
 
     <Border>
@@ -16,46 +16,36 @@
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center"
                     TextBlock.TextAlignment="Center">
-
                     <!-- Login main content white box -->
                     <Border Background="{StaticResource ForegroundLightBrush}" 
                             CornerRadius="10"
                             Padding="15 50 15 15"
                             Width="330"
                             Margin="50 50 50 0">
-
                         <StackPanel>
-
                             <!-- Sign Up header -->
                             <TextBlock Text="Влез" 
                                    FontSize="{StaticResource FontSizeLarge}" 
                                    FontFamily="{StaticResource LatoRegular}"
                                    Foreground="{StaticResource WordBlueBrush}" />
-
                             <!-- Sign up subtext-->
                             <TextBlock Text="Да станем богати" 
                                        FontSize="{StaticResource FontSizeRegular}"
                                        Foreground="{StaticResource ForegroundDarkBrush}"
                                        Margin="0 0 0 20"
                                        />
-
                             <!-- Email -->
                             <TextBox Text="{Binding Username}" Tag="Име" />
-
                             <!-- Password -->
                             <PasswordBox x:Name="PasswordText" Tag="Парола" Margin="0 0 0 30" />
-
                             <!-- Next button -->
                             <Button Content="Влез" 
                                     local:IsBusyProperty.Value="{Binding LoginIsRunning}"
-                                    CommandParameter="{Binding ElementName=Page}"
+                                    CommandParameter="{Binding ElementName=LoginRegister}"
                                     Command="{Binding LoginCommand}"
                                     HorizontalAlignment="Center" />
-
                         </StackPanel>
-
                     </Border>
-
                     <Button Command="{Binding RegisterCommand}" 
                             Style="{StaticResource TextButton}" 
                             Content="Нямам акаунт" 
