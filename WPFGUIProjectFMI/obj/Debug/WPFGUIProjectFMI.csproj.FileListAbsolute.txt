@@ -1,0 +1,311 @@
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\ProfilePage.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.cache
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.lref
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Buttons.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Colors.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Fonts.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Texts.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Windows.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\MySql.Data.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Google.Protobuf.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Zstandard.Net.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Renci.SshNet.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Memory.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Buffers.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.pdb
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.xml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\MySql.Data.xml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\ProfilePage.baml
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.g.resources
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.Properties.Resources.resources
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.GenerateResource.cache
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CoreCompileInputs.cache
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.Fody.CopyLocal.cache
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CopyComplete
+C:\Users\aleks\source\repos\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csprojAssemblyReference.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe.config
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.pdb
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\MySql.Data.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Google.Protobuf.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Zstandard.Net.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\BouncyCastle.Crypto.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Ubiety.Dns.Core.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Renci.SshNet.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Memory.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Buffers.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Hash.xxHash.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.pdb
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.xml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\MySql.Data.xml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csprojAssemblyReference.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe.config
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\ProfilePage.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.lref
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\ProfilePage.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Buttons.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Colors.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Fonts.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Texts.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Windows.baml
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.g.resources
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.Properties.Resources.resources
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.GenerateResource.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CoreCompileInputs.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.Fody.CopyLocal.cache
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CopyComplete
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe
+E:\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\ControlzEx.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Google.Protobuf.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Zstandard.Net.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\System.Memory.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\System.Buffers.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\ControlzEx.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\ControlzEx.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csprojAssemblyReference.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\SettingsWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\MainWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\App.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.lref
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\App.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\SettingsWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\MainWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Styles\Buttons.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Styles\Colors.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Styles\Fonts.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Styles\Texts.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Styles\Windows.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.g.resources
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.Properties.Resources.resources
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.GenerateResource.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.Fody.CopyLocal.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CopyComplete
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\MessageBox.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\MessageBox.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\ScoreWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI - Copy\WPFGUIProjectFMI\obj\Debug\ScoreWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Google.Protobuf.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Zstandard.Net.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Memory.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Buffers.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csprojAssemblyReference.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MessageBox.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\ScoreWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\SettingsWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.lref
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MessageBox.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\ScoreWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\SettingsWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Buttons.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Colors.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Fonts.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Texts.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Windows.baml
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.g.resources
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.Properties.Resources.resources
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.GenerateResource.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.Fody.CopyLocal.cache
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CopyComplete
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe
+C:\Users\aleks\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.pdb
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.exe
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\WPFGUIProjectFMI.pdb
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Google.Protobuf.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Zstandard.Net.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Memory.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Buffers.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.pdb
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\ControlzEx.xml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csprojAssemblyReference.cache
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe.config
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MessageBox.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\ScoreWindow.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\SettingsWindow.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.cache
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI_MarkupCompile.lref
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\App.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\PlayerScore.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ProfileUserControl.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\ScoreBoardScrollView.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Controls\SettingsTextBox.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MessageBox.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\ScoreWindow.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\SettingsWindow.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\LoginPage.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\PageHost.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\SellPage.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\BuyPage.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\StoragePage.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Pages\RegisterPage.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\MainWindow.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Buttons.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Colors.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Fonts.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Texts.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\Styles\Windows.baml
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.g.resources
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.Properties.Resources.resources
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.GenerateResource.cache
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.Fody.CopyLocal.cache
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.csproj.CopyComplete
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.exe
+C:\Users\Aleksandur\Desktop\WPFGUIProjectFMI\WPFGUIProjectFMI\WPFGUIProjectFMI\obj\Debug\WPFGUIProjectFMI.pdb
